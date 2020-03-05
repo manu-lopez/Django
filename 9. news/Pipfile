@@ -11,6 +11,7 @@ autopep8 = "*"
 django = "*"
 django-crispy-forms = "*"
 python-dotenv = "*"
+django-environ = "*"
 
 [requires]
 python_version = "3.7.3"
