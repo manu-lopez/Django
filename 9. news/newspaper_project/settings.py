@@ -134,8 +134,7 @@ LOGOUT_REDIRECT_URL = 'home'
 CRISPY_TEMPLATE_PACK = 'bootstrap'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-SENDGRID_API_KEY = 'SG.JUGN9qDeTneFssCL7kD4_g.'
-'bhr_c9Nw4IaNtQURrwlvrGy2DPybUOECE14twf6PMXU'
+SENDGRID_API_KEY = os.getenv('SENDGRID_API_KEY')
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'manuqwe123'
 EMAIL_HOST_PASSWORD = '(manupatata1)'
