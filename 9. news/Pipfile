@@ -13,6 +13,7 @@ django-crispy-forms = "*"
 python-dotenv = "*"
 django-environ = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7.3"
